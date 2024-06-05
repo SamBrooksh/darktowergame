@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+<p>
+I had to make several changes, not being used to some of the concepts with javascript and using a web browser.
+My game is a turn based game, that is suppose to be played with multiple people, instead of just one.
+As such, I'm doing things potentially different than normal. I don't want to have a lot of if statements to determine
+if an button can be pressed or not. Instead, I'm going to try to make it so that it places the event
+listeners whereever something can be pressed, and it follow the game. I don't have a lot of the options 
+designed, but I think I have the design mostly down.
+</p>
+
+<p>
+One design that I haven't gotten to, but will need to work on, is how I want to show the players inventory
+that will show up whenever they want. Mainly for deciding where to place it. Same with the notifications.
+For the game notifications I think I will position the menu slightly differently, and have it show up there.
+That way the player will see the last message, and not need to press annoying buttons (as it is now)
+</p>
+
+<p>Moving should be the hardest part, and tracking what kingdom they are in. I've made it so that they can move
+around, so I just need to put in the chances of encountering each of the moving options, and then make it so 
+the other buttons work and function properly. Honestly I think Moving, and tracking that is the hardest part.
+</p>
+
+<p>
+Main Components of the logic 
+<ul> 
+ <li>Handling which buttons are active or not - What a player is able to do, for example
+	clicking on the map won't affect being at the Bazaar.</li>
+<li>Keeping track of the inventory of the player - which it currently does, but doesn't do anything with it</li>
+<li>Identify the events that happen as they traverse around the board - possibilities include</li>
+<ol>
+<li>Dragon Attack</li>
+<li>Cursed</li>
+<li>Getting Lost</li>
+<li>Plague</li>
+</ol>
+<li>Entering different buildings - and experiencing all of those</li>
+<ol>
+<li>Ruins and Tomb</li>
+<li>Bazaar</li>
+<li>Sanctuary and Citadel</li>
+<li>Dark Tower</li>
+</ol>
+<li>I also need to implement a fighting simulation - albeit a simple one</li>
+</ul>
+</p>
+
+</body>
+
+</html>

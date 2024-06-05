@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h1>Dark Tower! The Game</h1>
+<p>I believe that this project should qualify for a high grade. The entire map is created using javascript,
+as required - and in a rather unique way I would like to believe. Having to make a square map based on 
+a circular map was a challenge, but I think it looks pretty good.
+</p>
+
+<p>The user makes several impactful choices, outside just playing the game. Entering in how many players,
+and selecting the difficulty are the first that everyone will have to play. The difficulty only changes
+the amount of brigands in the dark tower (final boss essentially), however the game does change slightly
+with one player compared to more.
+</p>
+
+<p>To actually play the game, it is mainly designed by the use of clicks on table squares. The one exception
+being when the player enters in a number, or Starting their turn in multi-player (That just requires the use
+of a click anywhere)
+</p>
+
+<p>
+The map changes as the players travel around - the picture moves from box to box. A dragon can land and 
+block passage through an area, and so on. There are many behind the scene changes as well - such as when 
+the dragon lands. After the dragon wreaks havoc on the player, listeners are placed in all the adjacent - 
+and viable square - to identify where the player places the dragon. After they do so, these listeners are removed.
+</p>
+
+<p>Honestly, the only use of the XMLHttpRequest is what was required in Assignment 6. I was focusing on
+finishing the logic and didn't get around to placing a save button (and function) and it's counterpart load.
+</p>
+
+<p>As in the original game, there are sound cues abound. I wasn't able to track down all of them, so it 
+is an incomplete list. I did then recreate them by recording them - to the best of my limited knowledge
+in that field at least. Still, the players will hear sounds as the wander across the landscape.
+</p>
+
+<p>
+The game logic is about 95% complete. There are a few things that I was not able to get put in - namely
+the pegasus. (You can obtain it, just not use it) That and improving some of the random chances. When I
+tested it I was either stupidly unlucky or something is a little funky with the random number generator
+I used. Like, when fighting Brigands there should be a chance that there are 10 or so less to just over double.
+A player is able to beat up to double the amount of Brigands. Yet just about everytime (it would run in streaks,
+thus my doubt) I would fight over double and have to retreat (by pressing no). The game feels pretty true
+to my memories of playing it though. Was it well designed? No. I planned on designing it in the beginning
+with the idea that it was like a text based game. Which made me have to make a lot of weird adjustments. 
+So my apologies if you are hoping to figure out why I did some of the things I did. 
+</p>
+
+<p>
+I do code in a very spacious variety, so the number is a little exaggerated, but this project is just shy of 
+2000 lines of code. Although 600ish is not game logic. I had a ton of fun doing it. Some other things that I could have tried to do, were using
+pictures for more stuff - such when fighting brigands (part of the problem was I didn't plan well on how
+to display the menu and information. That and the fact that the map is very large) - Saving/Loading games - the
+Pegasus - fixing any other bugs that may be hiding still - and fix some of the timings of stuff. Theoretically,
+the score should work, but I never beat the game in testing. (It's a hard game. Get lots of food. Like lots of it)
+The higher the Score the better! Oh and I couldv'e tried to improve the quality of the sounds and the like.
+</p>
+
+<p>
+On a side, more happy note. My brother, who has also played the game, helped me play test it (when it was 
+about 80% complete) and found a lot of fun bugs that I got to remove. Like making it so a player could 
+get NaN amount of gold. 
+</p>
+
+</body>
+</html>

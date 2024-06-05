@@ -1,0 +1,31 @@
+.left {float:left; padding-right:25px;}
+.right {float:right; padding-right:50px}
+.colored {color:blue;}
+table {border: thin solid;}
+th, td {border: thin solid; height:50px; width: 50px; text-align: center; font-size:10px}
+.title {font-size: 24px; float: center;}
+.bazaar {background-color: green;}
+.citadel {background-color: yellow;}
+.sanct {background-color: blue;}
+.tomb {background-color: brown;}
+.ruin {background-color: red;}
+.enter {background-color: black; color: red;}
+.frontier {background-color: gray;}
+body {margin:30px}
+h1 {text-align:center; font-family:Courier}
+hr {background-color: teal; width:75%; height:5px}
+hr:nth-of-type(2) {color: red; width:50%; height:3px}
+.green {background-color:green;}
+.gold {background-color:gold;}
+.blue {background-color:blue;}
+.white {background-color:white;}
+.orange {background-color:darkorange;}
+.gray {background-color:gray;}
+.red {background-color:red;}
+
+.menu {position:relative; margin:0 auto; background-color:gray;}
+.inventory {position: relative; margin: 0 auto;}
+#windowDisplay {font-size: 14px; padding:10px;}
+#playerTurn {font-size:20px; padding:10px}
+
+audio {display: none;}
